@@ -66,13 +66,9 @@ Here is a brief description of the available API endpoints:
 3. Configure the database connection.
 4. Deploy the Spring Boot application on the Apache Tomcat server.
 
-## Front-end Project Repository
-
-You can find the frontend development project on GitHub [Frontend POS System](https://github.com/nethmiumaya/POS_system-FrontEnd-.git).
-
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
 
 <p align="center">
   &copy; 2024 Nethmi Umaya
