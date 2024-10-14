@@ -33,7 +33,7 @@ This project demonstrates a cohesive integration of frontend and backend technol
 
 ## API Documentation
 
-You can find the detailed API documentation [API Documentation](https://documenter.getpostman.com/view/35386291/2sA3s1oBni).
+You can find the detailed API documentation [API Documentation](https://documenter.getpostman.com/view/35386291/2sAXxTcAa3).
 
 ## API Endpoints
 
@@ -57,7 +57,6 @@ Here is a brief description of the available API endpoints:
 
 - **GET /orders**: Retrieve all orders. Returns a JSON array of order objects.
 - **POST /orders**: Create a new order. Requires a JSON object with order details. Returns the created order object.
-- **GET /orders/{id}**: Retrieve details of a specific order by ID. Returns the order object.
 
 ## Setup and Installation
 
