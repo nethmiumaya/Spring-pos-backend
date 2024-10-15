@@ -9,7 +9,6 @@ A Point of Sale (POS) system is a combination of hardware and software used by b
 - **Backend:** Spring Boot, Hibernate, JPA
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** MySQL
-- **Communication:** AJAX
 - **Database Connectivity:** JNDI
 
 ## Installation
@@ -20,6 +19,8 @@ A Point of Sale (POS) system is a combination of hardware and software used by b
 - Maven
 - MySQL
 - Apache Tomcat 10
+- Spring Data JPA
+- Lombok
 
 ### Features
 
@@ -27,9 +28,11 @@ A Point of Sale (POS) system is a combination of hardware and software used by b
 - Inventory Tracking: Monitor stock and manage products.
 - Customer Management: Keep customer records and history.
 - Database Integration: Use MySQL for reliable data storage.
-- Real-Time Updates: Use AJAX for instant data communication.
+- REST API with JSON responses.
+- Set Logging: Integrated logging for tracking events and debugging.
+- Exception handling and validation using Spring Validator.
 
-This project demonstrates a cohesive integration of frontend and backend technologies, along with robust database management, to create a functional and efficient POS system tailored for a fruit shop.
+This project demonstrates a cohesive integration of  backend technologies, along with robust database management, to create a functional and efficient POS system tailored for pos system.
 
 ## API Documentation
 
@@ -57,13 +60,6 @@ Here is a brief description of the available API endpoints:
 
 - **GET /orders**: Retrieve all orders. Returns a JSON array of order objects.
 - **POST /orders**: Create a new order. Requires a JSON object with order details. Returns the created order object.
-
-## Setup and Installation
-
-1. Clone the repository.
-2. Set up the back-end dependencies.
-3. Configure the database connection.
-4. Deploy the Spring Boot application on the Apache Tomcat server.
 
 ## License
 
